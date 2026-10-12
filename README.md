@@ -12,6 +12,7 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 **Student Name:** MA Hasna
 **Student ID:** 23DA2-0610
 **Assigned Responsibility:** Graph Component, Main Menu and System Integration (Team Leader)
+
 **Individual Contribution:**
 - Implemented the Graph class using an adjacency list (add vertex, add edge, display graph)
 - Implemented BFS traversal (queue based) and DFS traversal (recursion based) with step counting
@@ -20,9 +21,11 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 - Set up the GitHub repository, branches, pull requests and README
 
 
+
 **Student Name:** MRF Roshan
 **Student ID:** 23DA2-0512
 **Assigned Responsibility:** Array and Searching
+
 **Individual Contribution:**
 - `ArrayOperations.java`: fixed-capacity array with insert (end and at position), delete, search and display
 - Handled full array, empty array and invalid position cases
@@ -34,15 +37,18 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 **Student Name:** JK Riska
 **Student ID:** 23DA2-0978
 **Assigned Responsibility:** Stack and Queue
+
 **Individual Contribution:**
 - `MyStack.java`: push, pop, peek, display, with stack overflow and empty stack handling
 - `MyQueue.java`: enqueue, dequeue, peek/front, display, with full and empty queue handling
 - All stack and queue operations run in O(1)
 
 
+
 **Student Name:** SHF Nasra
 **Student ID:** 23DA2-1047
 **Assigned Responsibility:** Linked List and Performance Comparison
+
 **Individual Contribution:**
 - `MyLinkedList.java`: singly linked list with insert at beginning, insert at end, delete, search and display
 - `PerformanceAnalyzer.java`: stores operation, algorithm, steps and time, and displays the results table
