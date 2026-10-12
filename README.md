@@ -10,8 +10,11 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 ## Team Members
 
 **Student Name:** MA Hasna
+
 **Student ID:** 23DA2-0610
+
 **Assigned Responsibility:** Graph Component, Main Menu and System Integration (Team Leader)
+
 **Individual Contribution:**
 - Implemented the Graph class using an adjacency list (add vertex, add edge, display graph)
 - Implemented BFS traversal (queue based) and DFS traversal (recursion based) with step counting
