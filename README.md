@@ -9,8 +9,8 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 
 ## Team Members
 
-**Student Name:** MA Hasna
-**Student ID:** 23DA2-0610
+**Student Name:** MA Hasna,
+**Student ID:** 23DA2-0610,
 **Assigned Responsibility:** Graph Component, Main Menu and System Integration (Team Leader)
 
 **Individual Contribution:**
@@ -22,8 +22,8 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 
 
 
-**Student Name:** MRF Roshan
-**Student ID:** 23DA2-0512
+**Student Name:** MRF Roshan,
+**Student ID:** 23DA2-0512,
 **Assigned Responsibility:** Array and Searching
 
 **Individual Contribution:**
@@ -34,8 +34,8 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 - Recorded number of steps and execution time for each search
 - Added a comparison feature that runs both searches on the same data
 
-**Student Name:** JK Riska
-**Student ID:** 23DA2-0978
+**Student Name:** JK Riska,
+**Student ID:** 23DA2-0978,
 **Assigned Responsibility:** Stack and Queue
 
 **Individual Contribution:**
@@ -45,8 +45,8 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 
 
 
-**Student Name:** SHF Nasra
-**Student ID:** 23DA2-1047
+**Student Name:** SHF Nasra,
+**Student ID:** 23DA2-1047,
 **Assigned Responsibility:** Linked List and Performance Comparison
 
 **Individual Contribution:**
