@@ -23,8 +23,11 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 - Set up the GitHub repository, branches, pull requests and README
 
 **Student Name:** MRF Roshan
+
 **Student ID:** 23DA2-0512
+
 **Assigned Responsibility:** Array and Searching
+
 **Individual Contribution:**
 - `ArrayOperations.java`: fixed-capacity array with insert (end and at position), delete, search and display
 - Handled full array, empty array and invalid position cases
@@ -34,8 +37,11 @@ Course: CIT300 Data Structures and Algorithms (Graded Practical Assignment 2)
 - Added a comparison feature that runs both searches on the same data
 
 **Student Name:** JK Riska
+
 **Student ID:** 23DA2-0978
+
 **Assigned Responsibility:** Stack and Queue
+
 **Individual Contribution:**
 - `MyStack.java`: push, pop, peek, display, with stack overflow and empty stack handling
 - `MyQueue.java`: enqueue, dequeue, peek/front, display, with full and empty queue handling
