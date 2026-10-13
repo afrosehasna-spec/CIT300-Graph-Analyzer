@@ -174,10 +174,13 @@ public class Main {
                     break;
                 case 4:
                     if (list.isEmpty()) { System.out.println("List is empty."); break; }
-                    int pos = list.search(readInt("Enter value to search: "));
+                    int target = readInt("Enter value to search: ");
+                    long start = System.nanoTime();
+                    int pos = list.search(target);
+                    long time = System.nanoTime() - start;
                     System.out.println(pos == -1 ? "Not found." : "Found at position " + pos);
-                    System.out.println("Steps: " + list.getLastSteps());
-                    analyzer.record("Search", "Linked List Search", list.getLastSteps(), 0);
+                    System.out.println("Steps: " + list.getLastSteps() + " | Time: " + time + " ns");
+                    analyzer.record("Search", "Linked List Search", list.getLastSteps(), time);
                     break;
                 case 5: list.display(); break;
                 case 6: return;
@@ -281,6 +284,15 @@ public class Main {
         System.out.println("Demo array: " + n + " sorted elements, target = " + target);
         searcher.compare(big, target, analyzer);
 
+        // Linked list search demo (same data as the array demo)
+        MyLinkedList bigList = new MyLinkedList();
+        for (int i = n - 1; i >= 0; i--) bigList.insertAtBeginning(big[i]);
+        long ts = System.nanoTime();
+        bigList.search(target);
+        long tl = System.nanoTime() - ts;
+        System.out.println("Linked List Search -> Steps: " + bigList.getLastSteps() + " | Time: " + tl + " ns");
+        analyzer.record("Search", "Linked List Search", bigList.getLastSteps(), tl);
+
         // Graph demo: use user's graph, or build a sample graph
         Graph g = graph;
         if (graph.isEmpty()) {
@@ -301,6 +313,7 @@ public class Main {
         analyzer.displayAll();
         System.out.println("\nWhy results differ:");
         System.out.println("- Linear search is O(n); binary search is O(log n), so it needs far fewer steps.");
+        System.out.println("- Linked list search is O(n) like linear search, but it follows node links instead of array indexes.");
         System.out.println("- BFS and DFS are both O(V + E); step counts are usually equal, order of visiting differs.");
     }
 }
